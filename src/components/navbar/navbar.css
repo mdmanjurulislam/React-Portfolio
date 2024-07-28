@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-menu {
+    background-color: black;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-menu ul li {
+    padding: 10px 20px;
+}
+.nav-menu ul li a:hover{
+    color: yellow;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.nav-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}

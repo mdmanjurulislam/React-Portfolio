@@ -1,0 +1,36 @@
+.work-card-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0;
+.work-card {
+    padding: 0 50px;
+    width: 25%;
+}
+}
+.work-card h2 {
+    padding-bottom: 11px;
+}
+.work-card h4 {
+    color: tomato;
+}
+.work-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.work-icon{
+    text-align: right;
+}
+.work-icon img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+}
+.work-heading{
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+
+
+

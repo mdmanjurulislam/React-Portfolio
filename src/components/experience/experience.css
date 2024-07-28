@@ -1,0 +1,12 @@
+.experience-card-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.exp-card {
+    width: 27%;
+    margin: 15px;
+    box-shadow: 0px 0px 7px -5px;
+    padding: 20px;
+    border-radius: 10px;
+}
